@@ -1,5 +1,9 @@
 # Project 2 for CITS2002
 
+- This project is *really* dumb but we **have to** do it
+- $f(x) = smart(x) \therefore f(CITS2002) DNE$
+
+  
 TODO:
 - Initialize the page table for each process.
 - Load pages into RAM.
