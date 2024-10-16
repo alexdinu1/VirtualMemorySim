@@ -1,5 +1,7 @@
 # Project 2 for CITS2002
 
+## collaboration link: [https://prod.liveshare.vsengsaas.visualstudio.com/join?EBEDC7F101618E66B1EBB9581D16C1D3117D]
+
 - This project is *really* dumb but we **have to** do it
 - $f(x) = smart(x) \quad \Longrightarrow \quad f(CITS2002) \ \text{DNE}$
 
