@@ -1,7 +1,7 @@
 # Project 2 for CITS2002
 
 - This project is *really* dumb but we **have to** do it
-- $f(x) = smart(x) \quad \Longightarrow \quad f(CITS2002) \ \text{DNE}$
+- $f(x) = smart(x) \quad \Longrightarrow \quad f(CITS2002) \ \text{DNE}$
 
   
 TODO:
