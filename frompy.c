@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 #define NUM_PROCESSES 4    // Number of processes
-#define NUM_PAGES NUM_PROCESSES        // Number of pages per process
+#define NUM_PAGES 4        // Number of pages per process
 #define RAM_SIZE 16        // Size of RAM (16 slots, 8 frames)
 #define PAGE_SIZE 2        // Number of slots per page (2 slots)
 #define MAX_LINE_LENGTH 100 // Maximum length for a line in the input file
