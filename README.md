@@ -21,7 +21,7 @@ This project is a simulation of a simple virtual memory management system using 
 ## 🔹 Compilation & Execution
 To compile the program, use `gcc`:
 ```sh
-gcc -o vm_simulator main.c
+gcc -o vm_simulator simulation.c
 ```
 To run the program:
 ```sh
