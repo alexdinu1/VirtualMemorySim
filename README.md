@@ -1,10 +1,10 @@
 # Virtual Memory Management Simulation
 **By Alex Dinu and Alysha Prompruek (UWA)**
 
-## Overview
+## 🔹 Overview
 This project is a simulation of a simple virtual memory management system using paging. It simulates a system with multiple processes that request pages, which are loaded into RAM when available.
 
-## Features
+## 🔹 Features
 - Simulates **4 processes**, each with **4 pages**.
 - Uses a **16-slot RAM** divided into **8 frames**, where each page occupies **2 slots**.
 - Implements a simple **page allocation** strategy, searching for **two consecutive free frames** to allocate a new page.
@@ -13,12 +13,12 @@ This project is a simulation of a simple virtual memory management system using 
 - Prints the **RAM state** and **page tables** after each allocation.
 - Handles **memory deallocation** at the end of the program.
 
-## File Structure
+## 🔹 File Structure
 - `main.c` - The source code implementing the virtual memory simulation.
 - `in.txt` - Input file containing a sequence of process IDs (each representing a page request).
 - `README.md` - This documentation.
 
-## Compilation & Execution
+## 🔹 Compilation & Execution
 To compile the program, use `gcc`:
 ```sh
 gcc -o vm_simulator main.c
@@ -29,12 +29,12 @@ To run the program:
 ```
 Ensure `in.txt` exists in the same directory and contains space-separated or newline-separated integers representing process IDs.
 
-## Example Input (`in.txt`)
+## 🔹 Example Input (`in.txt`)
 ```
 0 1 2 3 0 1 2 3 0 1 2 3
 ```
 
-## Example Output
+## 🔹 Example Output
 ```
 Process IDs read from file:
 0 1 2 3 0 1 2 3 0 1 2 3
@@ -53,7 +53,7 @@ Frame 2: Empty
 ...
 ```
 
-## Future Enhancements
+## 🔹 Future Enhancements
 - Implement **page replacement algorithms** (FIFO, LRU, etc.).
 - Improve RAM utilization and optimize memory management.
 - Support for dynamic process creation and termination.
