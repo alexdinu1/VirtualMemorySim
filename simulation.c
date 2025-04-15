@@ -2,12 +2,15 @@
 #include<stdlib.h>
 #include<string.h>
 
-#define NUM_PROCESSES 4    // Number of processes
+#define NUM_PROCESSES 6    // Number of processes
 #define NUM_PAGES 4        // Number of pages per process
 #define RAM_SIZE 16        // Size of RAM (16 slots, 8 frames)
 #define PAGE_SIZE 2        // Number of slots per page (2 slots)
 #define MAX_LINE_LENGTH 100 // Maximum length for a line in the input file
 #define IN_VIRTUAL_MEMORY 99 // Indicator that a page is in virtual memory
+
+#comment 
+blablabla
 
 struct memory {
     int process_id;
